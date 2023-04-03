@@ -1,0 +1,370 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          squants/experimental/unitgroups/uscustomary/package.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier, monospace;'>1 <span style=''>package squants.experimental.unitgroups
+</span>2 <span style=''>
+</span>3 <span style=''>import squants.UnitOfMeasure
+</span>4 <span style=''>import squants.mass._
+</span>5 <span style=''>import squants.space._
+</span>6 <span style=''>
+</span>7 <span style=''>/**
+</span>8 <span style=''>  * UnitGroups for the U.S. Customary units
+</span>9 <span style=''>  */
+</span>10 <span style=''>package object uscustomary {
+</span>11 <span style=''>
+</span>12 <span style=''>  object mass {
+</span>13 <span style=''>    object UsCustomaryMasses extends UnitGroup[Mass] {
+</span>14 <span style=''>      val units: Set[UnitOfMeasure[Mass]] = </span><span style='background: #F0ADAD'>Set(Ounces, Pounds, Kilopounds, Megapounds)</span><span style=''>
+</span>15 <span style=''>    }
+</span>16 <span style=''>  }
+</span>17 <span style=''>
+</span>18 <span style=''>
+</span>19 <span style=''>  object space {
+</span>20 <span style=''>    object UsCustomaryAreas extends UnitGroup[Area] {
+</span>21 <span style=''>      val units: Set[UnitOfMeasure[Area]] = </span><span style='background: #F0ADAD'>Set(Acres, SquareFeet, SquareInches, SquareYards, SquareUsMiles)</span><span style=''>
+</span>22 <span style=''>    }
+</span>23 <span style=''>
+</span>24 <span style=''>    object UsCustomaryLengths extends UnitGroup[Length] {
+</span>25 <span style=''>      val units: Set[UnitOfMeasure[Length]] = </span><span style='background: #F0ADAD'>Set(Inches, Feet, Yards, UsMiles)</span><span style=''>
+</span>26 <span style=''>    }
+</span>27 <span style=''>
+</span>28 <span style=''>    object UsCustomaryGeneralVolumes extends UnitGroup[Volume] {
+</span>29 <span style=''>      val units: Set[UnitOfMeasure[Volume]] = </span><span style='background: #F0ADAD'>Set(CubicInches, CubicFeet, CubicYards, AcreFeet)</span><span style=''>
+</span>30 <span style=''>    }
+</span>31 <span style=''>
+</span>32 <span style=''>    object UsCustomaryLiquidVolumes extends UnitGroup[Volume] {
+</span>33 <span style=''>      val units: Set[UnitOfMeasure[Volume]] = </span><span style='background: #F0ADAD'>Set(Teaspoons, Tablespoons, FluidOunces, UsCups, UsPints, UsQuarts, UsGallons)</span><span style=''>
+</span>34 <span style=''>    }
+</span>35 <span style=''>
+</span>36 <span style=''>    object UsCustomaryDryVolumes extends UnitGroup[Volume] {
+</span>37 <span style=''>      val units: Set[UnitOfMeasure[Volume]] = </span><span style='background: #F0ADAD'>Set(UsDryPints, UsDryCups, UsDryQuarts, UsDryGallons)</span><span style=''>
+</span>38 <span style=''>    }
+</span>39 <span style=''>  }
+</span>40 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Tests</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          50
+        </td>
+        <td>
+          314
+          -
+          317
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          Set
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          102
+        </td>
+        <td>
+          314
+          -
+          357
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set(Ounces, Pounds, Kilopounds, Megapounds)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          118
+        </td>
+        <td>
+          485
+          -
+          488
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          Set
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          485
+          -
+          549
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set(Acres, SquareFeet, SquareInches, SquareYards, SquareUsMiles)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          661
+          -
+          694
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set(Inches, Feet, Yards, UsMiles)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          661
+          -
+          664
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          Set
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set
+        </td>
+      </tr><tr>
+        <td>
+          28
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          813
+          -
+          816
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          Set
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set
+        </td>
+      </tr><tr>
+        <td>
+          28
+        </td>
+        <td>
+          97
+        </td>
+        <td>
+          813
+          -
+          862
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set(CubicInches, CubicFeet, CubicYards, AcreFeet)
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          980
+          -
+          1058
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set(Teaspoons, Tablespoons, FluidOunces, UsCups, UsPints, UsQuarts, UsGallons)
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          103
+        </td>
+        <td>
+          980
+          -
+          983
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          Set
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set
+        </td>
+      </tr><tr>
+        <td>
+          36
+        </td>
+        <td>
+          48
+        </td>
+        <td>
+          1173
+          -
+          1226
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set(UsDryPints, UsDryCups, UsDryQuarts, UsDryGallons)
+        </td>
+      </tr><tr>
+        <td>
+          36
+        </td>
+        <td>
+          143
+        </td>
+        <td>
+          1173
+          -
+          1176
+        </td>
+        <td>
+          Ident
+        </td>
+        <td>
+          Set
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          Set
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

@@ -1,5 +1,5 @@
 <scoverage 
-statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate="100.00" version="1.0" timestamp="1680519178296">
+statement-count="221" statements-invoked="113" statement-rate="51.13" branch-rate="50.00" version="1.0" timestamp="1680522908399">
     <packages>
         <package name="com.nigeleke.ohmic.app" statement-count="36" statements-invoked="18" statement-rate="50.00">
             <classes>
@@ -10,43 +10,37 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         name="com.nigeleke.ohmic.app/ResistorApp$/$anonfun" statement-count="21" statements-invoked="9" statement-rate="42.86" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2146" end="2203" line="56" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2156" end="2169" line="56" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2221" end="2228" line="57" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2122" end="2141" line="56" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="1884" end="1902" line="46" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2181" end="2190" line="56" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2006" end="2013" line="51" branch="false" invocation-count="0" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2221" end="2228" line="57" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2027" end="2055" line="52" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="1924" end="1931" line="47" branch="false" invocation-count="0" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2006" end="2013" line="51" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2146" end="2203" line="56" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2146" end="2170" line="56" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2122" end="2203" line="56" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="1924" end="1931" line="47" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2181" end="2190" line="56" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2126" end="2140" line="56" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2076" end="2093" line="54" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2230" end="2243" line="57" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2122" end="2125" line="56" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="1979" end="2024" line="51" branch="false" invocation-count="1" ignored="false">
@@ -55,16 +49,22 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="1884" end="1897" line="46" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2230" end="2236" line="57" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2122" end="2125" line="56" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="1855" end="1870" line="45" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2156" end="2169" line="56" branch="false" invocation-count="0" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2230" end="2236" line="57" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2122" end="2141" line="56" branch="false" invocation-count="0" ignored="false">
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2122" end="2203" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2076" end="2093" line="54" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2230" end="2243" line="57" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="$anonfun" start="2181" end="2184" line="56" branch="false" invocation-count="1" ignored="false">
@@ -77,6 +77,12 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         <method 
                         name="com.nigeleke.ohmic.app/ResistorApp$/&lt;init&gt;" statement-count="9" statements-invoked="3" statement-rate="33.33" branch-rate="100.00">
                             <statements>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="&lt;init&gt;" start="1826" end="1908" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="&lt;init&gt;" start="1979" end="2055" line="51" branch="false" invocation-count="0" ignored="false">
+</statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="&lt;init&gt;" start="1825" end="1948" line="44" branch="false" invocation-count="1" ignored="false">
 </statement>
@@ -98,17 +104,20 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="&lt;init&gt;" start="1826" end="1871" line="45" branch="false" invocation-count="0" ignored="false">
 </statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="&lt;init&gt;" start="1979" end="2055" line="51" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="&lt;init&gt;" start="1826" end="1908" line="46" branch="false" invocation-count="0" ignored="false">
-</statement>
                             </statements>
 </method>
                         <method 
                         name="com.nigeleke.ohmic.app/ResistorApp$/main" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
                             <statements>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2284" end="2330" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2261" end="2277" line="60" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2284" end="2302" line="61" branch="false" invocation-count="1" ignored="false">
+</statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2319" end="2329" line="62" branch="false" invocation-count="1" ignored="false">
 </statement>
@@ -117,15 +126,6 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2284" end="2373" line="63" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2261" end="2277" line="60" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2284" end="2330" line="62" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.app" class="ResistorApp$" class-type="Object" full-class-name="com.nigeleke.ohmic.app.ResistorApp$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/app/ResistorApp.scala" method="main" start="2284" end="2302" line="61" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -136,77 +136,19 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
         <package name="com.nigeleke.ohmic.core" statement-count="46" statements-invoked="35" statement-rate="76.09">
             <classes>
                 <class 
-                name="com.nigeleke.ohmic.core.Series$" filename="com/nigeleke/ohmic/core/Series.scala" statement-count="16" statements-invoked="8" statement-rate="50.00" branch-rate="100.00">
-                    <methods>
-                        <method 
-                        name="com.nigeleke.ohmic.core/Series$/&lt;init&gt;" statement-count="16" statements-invoked="8" statement-rate="50.00" branch-rate="100.00">
-                            <statements>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2711" end="2714" line="55" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2711" end="3734" line="55" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1797" end="1900" line="41" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1797" end="1800" line="41" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2183" end="2186" line="48" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1732" end="1735" line="39" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1663" end="1678" line="35" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="3769" end="3806" line="68" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="3769" end="3772" line="68" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2183" end="2696" line="48" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1691" end="1694" line="37" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1914" end="2169" line="44" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1663" end="1666" line="35" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1691" end="1718" line="37" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1914" end="1917" line="44" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1732" end="1783" line="39" branch="false" invocation-count="1" ignored="false">
-</statement>
-                            </statements>
-</method>
-                    </methods>
-</class>
-                <class 
                 name="com.nigeleke.ohmic.core.Resistor$" filename="com/nigeleke/ohmic/core/Resistor.scala" statement-count="23" statements-invoked="21" statement-rate="91.30" branch-rate="100.00">
                     <methods>
                         <method 
                         name="com.nigeleke.ohmic.core/Resistor$/value" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="value" start="2341" end="2367" line="53" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="value" start="2346" end="2366" line="53" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="value" start="2307" end="2316" line="53" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="value" start="2346" end="2366" line="53" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="value" start="2341" end="2367" line="53" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -217,22 +159,19 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="formattedValue" start="2500" end="2527" line="57" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="formattedValue" start="2534" end="2561" line="58" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="formattedValue" start="2373" end="2391" line="55" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="formattedValue" start="2555" end="2560" line="58" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="formattedValue" start="2373" end="2391" line="55" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="formattedValue" start="2534" end="2561" line="58" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
                         name="com.nigeleke.ohmic.core/Resistor$/colourCodes" statement-count="4" statements-invoked="3" statement-rate="75.00" branch-rate="100.00">
                             <statements>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="colourCodes" start="2676" end="2691" line="62" branch="false" invocation-count="0" ignored="false">
-</statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="colourCodes" start="2567" end="2582" line="60" branch="false" invocation-count="1" ignored="false">
 </statement>
@@ -241,6 +180,9 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="colourCodes" start="2676" end="2712" line="62" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="colourCodes" start="2676" end="2691" line="62" branch="false" invocation-count="0" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -251,10 +193,10 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="setFor" start="1917" end="1927" line="42" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="setFor" start="1949" end="2056" line="45" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="setFor" start="1950" end="2049" line="42" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="setFor" start="1950" end="2049" line="42" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="setFor" start="1949" end="2056" line="45" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -262,13 +204,13 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         name="com.nigeleke.ohmic.core/Resistor$/&lt;init&gt;" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="&lt;init&gt;" start="2226" end="2275" line="50" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="&lt;init&gt;" start="2108" end="2117" line="48" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="&lt;init&gt;" start="2108" end="2111" line="48" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="&lt;init&gt;" start="2108" end="2117" line="48" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="&lt;init&gt;" start="2226" end="2275" line="50" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -276,22 +218,105 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         name="com.nigeleke.ohmic.core/Resistor$/$anonfun" statement-count="6" statements-invoked="5" statement-rate="83.33" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="2207" end="2221" line="49" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="2200" end="2221" line="49" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="1983" end="2049" line="44" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="2207" end="2221" line="49" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="1997" end="2014" line="44" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="2200" end="2221" line="49" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="1983" end="2049" line="44" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="2696" end="2711" line="62" branch="false" invocation-count="1" ignored="false">
 </statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.nigeleke.ohmic.core.Series$" filename="com/nigeleke/ohmic/core/Series.scala" statement-count="16" statements-invoked="8" statement-rate="50.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.nigeleke.ohmic.core/Series$/&lt;init&gt;" statement-count="16" statements-invoked="8" statement-rate="50.00" branch-rate="100.00">
+                            <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.core" class="Resistor$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Resistor$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Resistor.scala" method="$anonfun" start="1983" end="2049" line="44" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1797" end="1800" line="41" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1663" end="1666" line="35" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2711" end="2714" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1691" end="1694" line="37" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1914" end="1917" line="44" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="3769" end="3806" line="68" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1732" end="1783" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1691" end="1718" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1663" end="1678" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1914" end="2169" line="44" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="3769" end="3772" line="68" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1732" end="1735" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2183" end="2186" line="48" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2711" end="3734" line="55" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="1797" end="1900" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="Series$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.Series$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Series.scala" method="&lt;init&gt;" start="2183" end="2696" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="com.nigeleke.ohmic.core.BandColour$" filename="com/nigeleke/ohmic/core/BandColour.scala" statement-count="5" statements-invoked="4" statement-rate="80.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.nigeleke.ohmic.core/BandColour$/from" statement-count="5" statements-invoked="4" statement-rate="80.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1972" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1804" line="39" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1765" end="1773" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1968" line="42" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1961" line="39" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -308,31 +333,6 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.core" class="Multiplier" class-type="Class" full-class-name="com.nigeleke.ohmic.core.Multiplier" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/Multiplier.scala" method="apply" start="2477" end="2485" line="47" branch="false" invocation-count="1" ignored="false">
-</statement>
-                            </statements>
-</method>
-                    </methods>
-</class>
-                <class 
-                name="com.nigeleke.ohmic.core.BandColour$" filename="com/nigeleke/ohmic/core/BandColour.scala" statement-count="5" statements-invoked="4" statement-rate="80.00" branch-rate="100.00">
-                    <methods>
-                        <method 
-                        name="com.nigeleke.ohmic.core/BandColour$/from" statement-count="5" statements-invoked="4" statement-rate="80.00" branch-rate="100.00">
-                            <statements>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1765" end="1773" line="38" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1968" line="42" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1972" line="42" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1961" line="39" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.core" class="BandColour$" class-type="Object" full-class-name="com.nigeleke.ohmic.core.BandColour$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/com/nigeleke/ohmic/core/BandColour.scala" method="from" start="1801" end="1804" line="39" branch="false" invocation-count="0" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -360,10 +360,13 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         name="com.nigeleke.ohmic.document/ResistorDocument$/saveAs" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2514" end="2547" line="68" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2531" end="2546" line="68" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2469" end="2479" line="67" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2514" end="2547" line="68" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2554" end="2575" line="69" branch="false" invocation-count="1" ignored="false">
@@ -371,16 +374,16 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2582" end="2593" line="70" branch="false" invocation-count="1" ignored="false">
 </statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="saveAs" start="2531" end="2546" line="68" branch="false" invocation-count="1" ignored="false">
-</statement>
                             </statements>
 </method>
                         <method 
                         name="com.nigeleke.ohmic.document/ResistorDocument$/withRow" statement-count="12" statements-invoked="10" statement-rate="83.33" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2697" end="2714" line="75" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2965" end="3004" line="84" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2829" end="2933" line="81" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2757" end="2807" line="76" branch="false" invocation-count="1" ignored="false">
@@ -395,25 +398,22 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2829" end="2957" line="82" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2757" end="2774" line="76" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2697" end="2714" line="75" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2607" end="2618" line="73" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2757" end="2774" line="76" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2681" end="2690" line="74" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2965" end="2982" line="84" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2829" end="2877" line="79" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2965" end="3004" line="84" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2965" end="2982" line="84" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2829" end="2933" line="81" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withRow" start="2607" end="2618" line="73" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -452,10 +452,10 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="apply" start="1947" end="1961" line="48" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="apply" start="1898" end="1907" line="48" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="apply" start="1930" end="1974" line="48" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="apply" start="1930" end="1974" line="48" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="apply" start="1898" end="1907" line="48" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="apply" start="1930" end="1987" line="48" branch="false" invocation-count="1" ignored="false">
@@ -466,10 +466,19 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         name="com.nigeleke.ohmic.document/ResistorDocument$/withHeader" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2258" end="2275" line="59" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2213" end="2251" line="58" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2258" end="2299" line="59" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2098" end="2112" line="55" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2167" end="2206" line="57" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2258" end="2275" line="59" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2151" end="2160" line="56" branch="false" invocation-count="1" ignored="false">
@@ -478,16 +487,7 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2167" end="2184" line="57" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2098" end="2112" line="55" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2213" end="2230" line="58" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2213" end="2251" line="58" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="withHeader" start="2258" end="2299" line="59" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -495,16 +495,16 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
                         name="com.nigeleke.ohmic.document/ResistorDocument$/$anonfun" statement-count="4" statements-invoked="2" statement-rate="50.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="3085" end="3098" line="87" branch="false" invocation-count="1" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="2865" end="2871" line="79" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
                                 package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="2915" end="2932" line="81" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="2894" end="2900" line="80" branch="false" invocation-count="0" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="3085" end="3098" line="87" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="2865" end="2871" line="79" branch="false" invocation-count="0" ignored="false">
+                                package="com.nigeleke.ohmic.document" class="ResistorDocument$" class-type="Object" full-class-name="com.nigeleke.ohmic.document.ResistorDocument$" source="/home/runner/work/ohmic/ohmic/app/src/main/scala/com/nigeleke/ohmic/document/ResistorDocument.scala" method="$anonfun" start="2894" end="2900" line="80" branch="false" invocation-count="0" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -512,5 +512,626 @@ statement-count="123" statements-invoked="90" statement-rate="73.17" branch-rate
 </class>
             </classes>
         </package>
+        <package name="squants.experimental.formatter" statement-count="24" statements-invoked="6" statement-rate="25.00">
+            <classes>
+                <class 
+                name="squants.experimental.formatter.syntax$" filename="squants/experimental/formatter/Formatters.scala" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.formatter/syntax$/FormattedQuantity" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.formatter" class="syntax$" class-type="Object" full-class-name="squants.experimental.formatter.syntax$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="FormattedQuantity" start="1091" end="1123" line="29" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.formatter.FormattedQuantity" filename="squants/experimental/formatter/Formatters.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.formatter/FormattedQuantity/inBestUnit" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.formatter" class="FormattedQuantity" class-type="Class" full-class-name="squants.experimental.formatter.FormattedQuantity" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="inBestUnit" start="1243" end="1273" line="31" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="FormattedQuantity" class-type="Class" full-class-name="squants.experimental.formatter.FormattedQuantity" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="inBestUnit" start="1171" end="1185" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.formatter.DefaultFormatter" filename="squants/experimental/formatter/DefaultFormatter.scala" statement-count="15" statements-invoked="6" statement-rate="40.00" branch-rate="50.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.formatter/DefaultFormatter/$anonfun" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="$anonfun" start="411" end="425" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="$anonfun" start="411" end="425" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="$anonfun" start="411" end="429" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="squants.experimental.formatter/DefaultFormatter/inBestUnit" statement-count="12" statements-invoked="6" statement-rate="50.00" branch-rate="50.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="267" end="282" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="298" end="324" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="516" end="533" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="361" end="509" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="334" end="540" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="310" end="323" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="361" end="438" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="205" end="228" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="482" end="508" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="361" end="460" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="298" end="324" line="8" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="DefaultFormatter" class-type="Class" full-class-name="squants.experimental.formatter.DefaultFormatter" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/DefaultFormatter.scala" method="inBestUnit" start="267" end="290" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.formatter.Formatters$" filename="squants/experimental/formatter/Formatters.scala" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.formatter/Formatters$/&lt;init&gt;" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.formatter" class="Formatters$" class-type="Object" full-class-name="squants.experimental.formatter.Formatters$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="&lt;init&gt;" start="745" end="784" line="17" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="Formatters$" class-type="Object" full-class-name="squants.experimental.formatter.Formatters$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="&lt;init&gt;" start="644" end="676" line="15" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="Formatters$" class-type="Object" full-class-name="squants.experimental.formatter.Formatters$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="&lt;init&gt;" start="849" end="885" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="Formatters$" class-type="Object" full-class-name="squants.experimental.formatter.Formatters$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="&lt;init&gt;" start="547" end="596" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.formatter.implicits$" filename="squants/experimental/formatter/Formatters.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.formatter/implicits$/implicitFormatter" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.formatter" class="implicits$" class-type="Object" full-class-name="squants.experimental.formatter.implicits$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="implicitFormatter" start="910" end="940" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.formatter" class="implicits$" class-type="Object" full-class-name="squants.experimental.formatter.implicits$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/formatter/Formatters.scala" method="implicitFormatter" start="1023" end="1065" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="squants.experimental.unitgroups" statement-count="14" statements-invoked="14" statement-rate="100.00">
+            <classes>
+                <class 
+                name="squants.experimental.unitgroups.UomOrdering" filename="squants/experimental/unitgroups/UnitGroup.scala" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups/UomOrdering/compare" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="759" end="774" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="780" end="783" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="692" end="696" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="780" end="796" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="603" end="623" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="729" end="744" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="759" end="763" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="692" end="706" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="692" end="713" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UomOrdering" class-type="Class" full-class-name="squants.experimental.unitgroups.UomOrdering" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="compare" start="729" end="733" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.UnitGroup" filename="squants/experimental/unitgroups/UnitGroup.scala" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups/UnitGroup/&lt;init&gt;" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UnitGroup" class-type="Trait" full-class-name="squants.experimental.unitgroups.UnitGroup" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="&lt;init&gt;" start="421" end="459" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UnitGroup" class-type="Trait" full-class-name="squants.experimental.unitgroups.UnitGroup" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="&lt;init&gt;" start="343" end="361" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UnitGroup" class-type="Trait" full-class-name="squants.experimental.unitgroups.UnitGroup" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="&lt;init&gt;" start="421" end="450" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups" class="UnitGroup" class-type="Trait" full-class-name="squants.experimental.unitgroups.UnitGroup" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/UnitGroup.scala" method="&lt;init&gt;" start="454" end="459" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package 
+        name="squants.experimental.unitgroups.information" statement-count="4" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="squants.experimental.unitgroups.information.MetricInformation$" filename="squants/experimental/unitgroups/information/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.information/MetricInformation$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.information" class="MetricInformation$" class-type="Object" full-class-name="squants.experimental.unitgroups.information.MetricInformation$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/information/package.scala" method="&lt;init&gt;" start="621" end="720" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.information" class="MetricInformation$" class-type="Object" full-class-name="squants.experimental.unitgroups.information.MetricInformation$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/information/package.scala" method="&lt;init&gt;" start="621" end="624" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.information.IECInformation$" filename="squants/experimental/unitgroups/information/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.information/IECInformation$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.information" class="IECInformation$" class-type="Object" full-class-name="squants.experimental.unitgroups.information.IECInformation$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/information/package.scala" method="&lt;init&gt;" start="363" end="461" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.information" class="IECInformation$" class-type="Object" full-class-name="squants.experimental.unitgroups.information.IECInformation$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/information/package.scala" method="&lt;init&gt;" start="363" end="366" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+</package>
+        <package name="squants.experimental.unitgroups.misc" statement-count="6" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="squants.experimental.unitgroups.misc.AstronomicalLengthUnitGroup$" filename="squants/experimental/unitgroups/misc/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.misc/AstronomicalLengthUnitGroup$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.misc" class="AstronomicalLengthUnitGroup$" class-type="Object" full-class-name="squants.experimental.unitgroups.misc.AstronomicalLengthUnitGroup$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/misc/package.scala" method="&lt;init&gt;" start="713" end="716" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.misc" class="AstronomicalLengthUnitGroup$" class-type="Object" full-class-name="squants.experimental.unitgroups.misc.AstronomicalLengthUnitGroup$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/misc/package.scala" method="&lt;init&gt;" start="713" end="756" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.misc.UkCustomaryMasses$" filename="squants/experimental/unitgroups/misc/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.misc/UkCustomaryMasses$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.misc" class="UkCustomaryMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.misc.UkCustomaryMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/misc/package.scala" method="&lt;init&gt;" start="362" end="365" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.misc" class="UkCustomaryMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.misc.UkCustomaryMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/misc/package.scala" method="&lt;init&gt;" start="362" end="412" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.misc.TroyMasses$" filename="squants/experimental/unitgroups/misc/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.misc/TroyMasses$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.misc" class="TroyMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.misc.TroyMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/misc/package.scala" method="&lt;init&gt;" start="545" end="548" line="18" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.misc" class="TroyMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.misc.TroyMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/misc/package.scala" method="&lt;init&gt;" start="545" end="598" line="18" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package 
+        name="squants.experimental.unitgroups.si.expanded" statement-count="35" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiVolumes$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiVolumes$/&lt;init&gt;" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2038" end="2059" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2038" end="2065" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2038" end="2152" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2077" end="2080" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2077" end="2152" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiTimes$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiTimes$/&lt;init&gt;" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiTimes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiTimes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2277" end="2302" line="61" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiTimes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiTimes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2277" end="2296" line="61" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiTimes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiTimes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2277" end="2331" line="61" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiTimes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiTimes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2306" end="2331" line="61" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiTimes$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiTimes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="2306" end="2309" line="61" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiAngles$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiAngles$/&lt;init&gt;" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAngles$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAngles$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1574" end="1628" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAngles$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAngles$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1574" end="1600" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAngles$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAngles$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1574" end="1594" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAngles$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAngles$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1604" end="1607" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAngles$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAngles$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1604" end="1628" line="42" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiMasses$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiMasses$/&lt;init&gt;" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1222" end="1247" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1222" end="1256" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1222" end="1241" line="30" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiLengths$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiLengths$/&lt;init&gt;" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiLengths$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiLengths$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1880" end="1907" line="50" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiLengths$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiLengths$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1880" end="1901" line="50" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiLengths$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiLengths$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1880" end="1927" line="50" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreaDensities$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiAreaDensities$/&lt;init&gt;" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAreaDensities$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreaDensities$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1062" end="1116" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAreaDensities$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreaDensities$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1062" end="1088" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAreaDensities$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreaDensities$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1062" end="1094" line="26" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreas$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiAreas$/&lt;init&gt;" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAreas$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreas$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1733" end="1752" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAreas$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreas$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1733" end="1758" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiAreas$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiAreas$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1733" end="1769" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiElectricCharge$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiElectricCharge$/&lt;init&gt;" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiElectricCharge$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiElectricCharge$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="802" end="837" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiElectricCharge$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiElectricCharge$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="802" end="915" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiElectricCharge$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiElectricCharge$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="849" end="852" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiElectricCharge$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiElectricCharge$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="802" end="831" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiElectricCharge$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiElectricCharge$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="849" end="915" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.expanded.ExpandedSiVelocities$" filename="squants/experimental/unitgroups/si/expanded/package.scala" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.expanded/ExpandedSiVelocities$/&lt;init&gt;" statement-count="3" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVelocities$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVelocities$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1396" end="1445" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVelocities$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVelocities$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1396" end="1425" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.expanded" class="ExpandedSiVelocities$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.expanded.ExpandedSiVelocities$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/expanded/package.scala" method="&lt;init&gt;" start="1396" end="1419" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+</package>
+        <package 
+        name="squants.experimental.unitgroups.si.strict" statement-count="3" statements-invoked="3" statement-rate="100.00">
+            <classes>
+                <class 
+                name="squants.experimental.unitgroups.si.strict.$anon" filename="squants/experimental/unitgroups/si/strict/package.scala" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.strict/$anon/&lt;init&gt;" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.strict" class="$anon" class-type="Class" full-class-name="squants.experimental.unitgroups.si.strict.$anon" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="&lt;init&gt;" start="462" end="477" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.strict" class="$anon" class-type="Class" full-class-name="squants.experimental.unitgroups.si.strict.$anon" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="&lt;init&gt;" start="462" end="508" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.si.strict.implicits$" filename="squants/experimental/unitgroups/si/strict/package.scala" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.si.strict/implicits$/mkSiUnitGroup" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.si.strict" class="implicits$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.strict.implicits$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="mkSiUnitGroup" start="297" end="323" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+</package>
+        <package 
+        name="squants.experimental.unitgroups.uscustomary" statement-count="12" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="squants.experimental.unitgroups.uscustomary.UsCustomaryMasses$" filename="squants/experimental/unitgroups/uscustomary/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.uscustomary/UsCustomaryMasses$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="314" end="317" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryMasses$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryMasses$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="314" end="357" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.uscustomary.UsCustomaryGeneralVolumes$" filename="squants/experimental/unitgroups/uscustomary/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.uscustomary/UsCustomaryGeneralVolumes$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryGeneralVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryGeneralVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="813" end="816" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryGeneralVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryGeneralVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="813" end="862" line="28" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.uscustomary.UsCustomaryDryVolumes$" filename="squants/experimental/unitgroups/uscustomary/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.uscustomary/UsCustomaryDryVolumes$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryDryVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryDryVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="1173" end="1226" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryDryVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryDryVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="1173" end="1176" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.uscustomary.UsCustomaryAreas$" filename="squants/experimental/unitgroups/uscustomary/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.uscustomary/UsCustomaryAreas$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryAreas$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryAreas$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="485" end="488" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryAreas$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryAreas$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="485" end="549" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.uscustomary.UsCustomaryLiquidVolumes$" filename="squants/experimental/unitgroups/uscustomary/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.uscustomary/UsCustomaryLiquidVolumes$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryLiquidVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryLiquidVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="980" end="1058" line="32" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryLiquidVolumes$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryLiquidVolumes$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="980" end="983" line="32" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="squants.experimental.unitgroups.uscustomary.UsCustomaryLengths$" filename="squants/experimental/unitgroups/uscustomary/package.scala" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="squants.experimental.unitgroups.uscustomary/UsCustomaryLengths$/&lt;init&gt;" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryLengths$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryLengths$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="661" end="694" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="squants.experimental.unitgroups.uscustomary" class="UsCustomaryLengths$" class-type="Object" full-class-name="squants.experimental.unitgroups.uscustomary.UsCustomaryLengths$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/uscustomary/package.scala" method="&lt;init&gt;" start="661" end="664" line="24" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+</package>
     </packages>
 </scoverage>

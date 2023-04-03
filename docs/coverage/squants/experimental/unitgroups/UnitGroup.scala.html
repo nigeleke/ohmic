@@ -1,0 +1,407 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          squants/experimental/unitgroups/UnitGroup.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier, monospace;'>1 <span style=''>package squants.experimental.unitgroups
+</span>2 <span style=''>
+</span>3 <span style=''>import scala.collection.immutable.{Set, SortedSet}
+</span>4 <span style=''>
+</span>5 <span style=''>import squants.{Quantity, UnitOfMeasure}
+</span>6 <span style=''>
+</span>7 <span style=''>/** A collection of related [[squants.UnitOfMeasure]] */
+</span>8 <span style=''>trait UnitGroup[A &lt;: Quantity[A]] {
+</span>9 <span style=''>
+</span>10 <span style=''>  def units: Set[UnitOfMeasure[A]]
+</span>11 <span style=''>
+</span>12 <span style=''>  private[squants] implicit val uomOrdering: Ordering[UnitOfMeasure[A]] =
+</span>13 <span style=''>    </span><span style='background: #AEF1AE'>new UomOrdering[A]</span><span style=''>
+</span>14 <span style=''>
+</span>15 <span style=''>  lazy val sortedUnits: SortedSet[UnitOfMeasure[A]] =
+</span>16 <span style=''>    </span><span style='background: #AEF1AE'>SortedSet[UnitOfMeasure[A]]() ++ units</span><span style=''>
+</span>17 <span style=''>}
+</span>18 <span style=''>
+</span>19 <span style=''>/** [[scala.math.Ordering]] instance for [[UnitOfMeasure]][A] */
+</span>20 <span style=''>class UomOrdering[A &lt;: Quantity[A]] extends Ordering[UnitOfMeasure[A]] {
+</span>21 <span style=''>  </span><span style='background: #AEF1AE'>override def compare</span><span style=''>(x: UnitOfMeasure[A], y: UnitOfMeasure[A]): Int = {
+</span>22 <span style=''>    val siUnit = </span><span style='background: #AEF1AE'>x(1).dimension.siUnit</span><span style=''>
+</span>23 <span style=''>
+</span>24 <span style=''>    val xSI = </span><span style='background: #AEF1AE'>x(1).to(siUnit)</span><span style=''>
+</span>25 <span style=''>    val ySI = </span><span style='background: #AEF1AE'>y(1).to(siUnit)</span><span style=''>
+</span>26 <span style=''>
+</span>27 <span style=''>    </span><span style='background: #AEF1AE'>xSI.compare(ySI)</span><span style=''>
+</span>28 <span style=''>  }
+</span>29 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Tests</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          85
+        </td>
+        <td>
+          343
+          -
+          361
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          &lt;init&gt;
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          new UomOrdering[A]
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          35
+        </td>
+        <td>
+          421
+          -
+          459
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          ++
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          SortedSet[UnitOfMeasure[A]]() ++ units
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          114
+        </td>
+        <td>
+          421
+          -
+          450
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          SortedSet[UnitOfMeasure[A]]()
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          454
+          -
+          459
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          units
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          units
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          603
+          -
+          623
+        </td>
+        <td>
+          DefDef
+        </td>
+        <td>
+          compare
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          override def compare
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          38
+        </td>
+        <td>
+          692
+          -
+          696
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1)
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          132
+        </td>
+        <td>
+          692
+          -
+          706
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          dimension
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1).dimension
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          78
+        </td>
+        <td>
+          692
+          -
+          713
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          siUnit
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1).dimension.siUnit
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          729
+          -
+          744
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          to
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1).to(siUnit)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          108
+        </td>
+        <td>
+          729
+          -
+          733
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          83
+        </td>
+        <td>
+          759
+          -
+          774
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          to
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          y(1).to(siUnit)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          759
+          -
+          763
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          y(1)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          59
+        </td>
+        <td>
+          780
+          -
+          783
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          doubleWrapper
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          xSI
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          115
+        </td>
+        <td>
+          780
+          -
+          796
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          compare
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          xSI.compare(ySI)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>
