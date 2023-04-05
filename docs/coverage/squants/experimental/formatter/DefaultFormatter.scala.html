@@ -27,20 +27,14 @@
 </span>3 <span style=''>import squants.Quantity
 </span>4 <span style=''>import squants.experimental.unitgroups.UnitGroup
 </span>5 <span style=''>
-</span>6 <span style=''>class DefaultFormatter[A &lt;: Quantity[A]](unitGroup: UnitGroup[A]) extends Formatter[A] {
-</span>7 <span style=''>  </span><span style='background: #AEF1AE'>override def inBestUnit</span><span style=''>(quantity: Quantity[A]): A = {
-</span>8 <span style=''>    if (</span><span style='background: #AEF1AE'>unitGroup.units.isEmpty</span><span style=''>)
-</span>9 <span style=''>      </span><span style='background: #F0ADAD'>quantity.in(quantity.unit)</span><span style=''>
-</span>10 <span style=''>    else </span><span style='background: #AEF1AE'>{
-</span>11 <span style=''></span><span style='background: #AEF1AE'>      val unit =
-</span>12 <span style=''></span><span style='background: #AEF1AE'>        </span><span style='background: #F0ADAD'>unitGroup.sortedUnits
-</span>13 <span style=''></span><span style='background: #F0ADAD'>          .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
-</span>14 <span style=''></span><span style='background: #F0ADAD'>          .lastOption</span><span style='background: #AEF1AE'>
-</span>15 <span style=''></span><span style='background: #AEF1AE'>          .getOrElse(</span><span style='background: #F0ADAD'>unitGroup.sortedUnits.head</span><span style='background: #AEF1AE'>)
-</span>16 <span style=''></span><span style='background: #AEF1AE'>      quantity.in(unit) 
-</span>17 <span style=''></span><span style='background: #AEF1AE'>    }</span><span style=''>
-</span>18 <span style=''>  }
-</span>19 <span style=''>}
+</span>6 <span style=''>class DefaultFormatter[A &lt;: Quantity[A]](unitGroup: UnitGroup[A]):
+</span>7 <span style=''>  </span><span style='background: #AEF1AE'>def inBestUnit</span><span style=''>(quantity: Quantity[A]): A =
+</span>8 <span style=''>    val unit =
+</span>9 <span style=''>      </span><span style='background: #F0ADAD'>unitGroup.sortedUnits
+</span>10 <span style=''></span><span style='background: #F0ADAD'>        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
+</span>11 <span style=''></span><span style='background: #F0ADAD'>        .lastOption</span><span style='background: #AEF1AE'>
+</span>12 <span style=''></span><span style='background: #AEF1AE'>        .getOrElse(</span><span style='background: #F0ADAD'>unitGroup.sortedUnits.head</span><span style='background: #AEF1AE'>)</span><span style=''>
+</span>13 <span style=''>    </span><span style='background: #AEF1AE'>quantity.in(unit)</span><span style=''>
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -58,12 +52,12 @@
           6
         </td>
         <td>
-          99
+          52
         </td>
         <td>
-          205
+          183
           -
-          228
+          197
         </td>
         <td>
           DefDef
@@ -75,211 +69,19 @@
           
         </td>
         <td style="background: #AEF1AE">
-          override def inBestUnit
-        </td>
-      </tr><tr>
-        <td>
-          7
-        </td>
-        <td>
-          53
-        </td>
-        <td>
-          267
-          -
-          282
-        </td>
-        <td>
-          Select
-        </td>
-        <td>
-          units
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          unitGroup.units
-        </td>
-      </tr><tr>
-        <td>
-          7
-        </td>
-        <td>
-          42
-        </td>
-        <td>
-          267
-          -
-          290
-        </td>
-        <td>
-          Select
-        </td>
-        <td>
-          isEmpty
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          unitGroup.units.isEmpty
-        </td>
-      </tr><tr>
-        <td>
-          8
-        </td>
-        <td>
-          124
-        </td>
-        <td>
-          298
-          -
-          324
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          in
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          quantity.in(quantity.unit)
-        </td>
-      </tr><tr>
-        <td>
-          8
-        </td>
-        <td>
-          70
-        </td>
-        <td>
-          310
-          -
-          323
-        </td>
-        <td>
-          Select
-        </td>
-        <td>
-          unit
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          quantity.unit
-        </td>
-      </tr><tr>
-        <td>
-          8
-        </td>
-        <td>
-          15
-        </td>
-        <td>
-          298
-          -
-          324
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          in
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          quantity.in(quantity.unit)
+          def inBestUnit
         </td>
       </tr><tr>
         <td>
           9
         </td>
         <td>
-          16
+          4
         </td>
         <td>
-          334
+          295
           -
-          540
-        </td>
-        <td>
-          Block
-        </td>
-        <td>
-          &lt;none&gt;
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          {\n      val unit =\n        unitGroup.sortedUnits\n          .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }\n          .lastOption\n          .getOrElse(unitGroup.sortedUnits.head)\n      quantity.in(unit) \n    }
-        </td>
-      </tr><tr>
-        <td>
-          12
-        </td>
-        <td>
-          113
-        </td>
-        <td>
-          411
-          -
-          425
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          to
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          quantity.to(u)
-        </td>
-      </tr><tr>
-        <td>
-          12
-        </td>
-        <td>
-          22
-        </td>
-        <td>
-          411
-          -
-          425
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          doubleWrapper
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          quantity.to(u)
-        </td>
-      </tr><tr>
-        <td>
-          12
-        </td>
-        <td>
-          61
-        </td>
-        <td>
-          411
-          -
-          429
+          313
         </td>
         <td>
           Select
@@ -295,15 +97,15 @@
         </td>
       </tr><tr>
         <td>
-          12
+          9
         </td>
         <td>
-          87
+          19
         </td>
         <td>
-          361
+          247
           -
-          438
+          322
         </td>
         <td>
           Apply
@@ -315,19 +117,67 @@
           
         </td>
         <td style="background: #F0ADAD">
-          unitGroup.sortedUnits\n          .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
+          unitGroup.sortedUnits\n        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
         </td>
       </tr><tr>
         <td>
-          13
+          9
         </td>
         <td>
-          39
+          60
         </td>
         <td>
-          361
+          295
           -
-          460
+          309
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          doubleWrapper
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          quantity.to(u)
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          295
+          -
+          309
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          to
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          quantity.to(u)
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          247
+          -
+          342
         </td>
         <td>
           Select
@@ -339,19 +189,19 @@
           
         </td>
         <td style="background: #F0ADAD">
-          unitGroup.sortedUnits\n          .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }\n          .lastOption
+          unitGroup.sortedUnits\n        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }\n        .lastOption
         </td>
       </tr><tr>
         <td>
-          14
+          11
         </td>
         <td>
-          139
+          25
         </td>
         <td>
-          361
+          247
           -
-          509
+          389
         </td>
         <td>
           Apply
@@ -363,19 +213,19 @@
           
         </td>
         <td style="background: #AEF1AE">
-          unitGroup.sortedUnits\n          .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }\n          .lastOption\n          .getOrElse(unitGroup.sortedUnits.head)
+          unitGroup.sortedUnits\n        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }\n        .lastOption\n        .getOrElse(unitGroup.sortedUnits.head)
         </td>
       </tr><tr>
         <td>
-          14
+          11
         </td>
         <td>
-          126
+          39
         </td>
         <td>
-          482
+          362
           -
-          508
+          388
         </td>
         <td>
           Select
@@ -391,15 +241,15 @@
         </td>
       </tr><tr>
         <td>
-          15
+          12
         </td>
         <td>
-          64
+          8
         </td>
         <td>
-          516
+          394
           -
-          533
+          411
         </td>
         <td>
           Apply

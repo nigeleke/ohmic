@@ -29,28 +29,22 @@
 </span>5 <span style=''>import squants.{Quantity, UnitOfMeasure}
 </span>6 <span style=''>
 </span>7 <span style=''>/** A collection of related [[squants.UnitOfMeasure]] */
-</span>8 <span style=''>trait UnitGroup[A &lt;: Quantity[A]] {
+</span>8 <span style=''>trait UnitGroup[A &lt;: Quantity[A]]:
 </span>9 <span style=''>
 </span>10 <span style=''>  def units: Set[UnitOfMeasure[A]]
 </span>11 <span style=''>
-</span>12 <span style=''>  private[squants] implicit val uomOrdering: Ordering[UnitOfMeasure[A]] =
-</span>13 <span style=''>    </span><span style='background: #AEF1AE'>new UomOrdering[A]</span><span style=''>
-</span>14 <span style=''>
-</span>15 <span style=''>  lazy val sortedUnits: SortedSet[UnitOfMeasure[A]] =
-</span>16 <span style=''>    </span><span style='background: #AEF1AE'>SortedSet[UnitOfMeasure[A]]() ++ units</span><span style=''>
-</span>17 <span style=''>}
-</span>18 <span style=''>
-</span>19 <span style=''>/** [[scala.math.Ordering]] instance for [[UnitOfMeasure]][A] */
-</span>20 <span style=''>class UomOrdering[A &lt;: Quantity[A]] extends Ordering[UnitOfMeasure[A]] {
-</span>21 <span style=''>  </span><span style='background: #AEF1AE'>override def compare</span><span style=''>(x: UnitOfMeasure[A], y: UnitOfMeasure[A]): Int = {
-</span>22 <span style=''>    val siUnit = </span><span style='background: #AEF1AE'>x(1).dimension.siUnit</span><span style=''>
-</span>23 <span style=''>
-</span>24 <span style=''>    val xSI = </span><span style='background: #AEF1AE'>x(1).to(siUnit)</span><span style=''>
-</span>25 <span style=''>    val ySI = </span><span style='background: #AEF1AE'>y(1).to(siUnit)</span><span style=''>
-</span>26 <span style=''>
-</span>27 <span style=''>    </span><span style='background: #AEF1AE'>xSI.compare(ySI)</span><span style=''>
-</span>28 <span style=''>  }
-</span>29 <span style=''>}
+</span>12 <span style=''>  private[squants] given Ordering[UnitOfMeasure[A]] = </span><span style='background: #AEF1AE'>new UomOrdering[A]</span><span style=''>
+</span>13 <span style=''>
+</span>14 <span style=''>  lazy val sortedUnits: SortedSet[UnitOfMeasure[A]] =
+</span>15 <span style=''>    </span><span style='background: #AEF1AE'>SortedSet[UnitOfMeasure[A]]() ++ units</span><span style=''>
+</span>16 <span style=''>
+</span>17 <span style=''>  /** [[scala.math.Ordering]] instance for [[UnitOfMeasure]][A] */
+</span>18 <span style=''>  class UomOrdering[A &lt;: Quantity[A]] extends Ordering[UnitOfMeasure[A]]:
+</span>19 <span style=''>    </span><span style='background: #AEF1AE'>override def compare</span><span style=''>(x: UnitOfMeasure[A], y: UnitOfMeasure[A]): Int =
+</span>20 <span style=''>      val siUnit = </span><span style='background: #AEF1AE'>x(1).dimension.siUnit</span><span style=''>
+</span>21 <span style=''>      val xSI    = </span><span style='background: #AEF1AE'>x(1).to(siUnit)</span><span style=''>
+</span>22 <span style=''>      val ySI    = </span><span style='background: #AEF1AE'>y(1).to(siUnit)</span><span style=''>
+</span>23 <span style=''>      </span><span style='background: #AEF1AE'>xSI.compare(ySI)</span><span style=''>
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -65,15 +59,15 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          12
+          11
         </td>
         <td>
-          85
+          27
         </td>
         <td>
-          343
+          318
           -
-          361
+          336
         </td>
         <td>
           Apply
@@ -89,39 +83,39 @@
         </td>
       </tr><tr>
         <td>
-          15
+          14
         </td>
         <td>
-          35
+          29
         </td>
         <td>
-          421
+          429
           -
-          459
+          434
         </td>
         <td>
-          Apply
+          Select
         </td>
         <td>
-          ++
+          units
         </td>
         <td>
           
         </td>
         <td style="background: #AEF1AE">
-          SortedSet[UnitOfMeasure[A]]() ++ units
+          units
         </td>
       </tr><tr>
         <td>
-          15
+          14
         </td>
         <td>
-          114
+          58
         </td>
         <td>
-          421
+          396
           -
-          450
+          425
         </td>
         <td>
           Apply
@@ -137,39 +131,39 @@
         </td>
       </tr><tr>
         <td>
-          15
+          14
         </td>
         <td>
-          63
+          16
         </td>
         <td>
-          454
+          396
           -
-          459
+          434
         </td>
         <td>
-          Select
+          Apply
         </td>
         <td>
-          units
+          ++
         </td>
         <td>
           
         </td>
         <td style="background: #AEF1AE">
-          units
+          SortedSet[UnitOfMeasure[A]]() ++ units
         </td>
       </tr><tr>
         <td>
-          20
+          18
         </td>
         <td>
-          4
+          2
         </td>
         <td>
-          603
+          581
           -
-          623
+          601
         </td>
         <td>
           DefDef
@@ -185,39 +179,15 @@
         </td>
       </tr><tr>
         <td>
-          21
+          19
         </td>
         <td>
-          38
+          49
         </td>
         <td>
-          692
+          670
           -
-          696
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          apply
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          x(1)
-        </td>
-      </tr><tr>
-        <td>
-          21
-        </td>
-        <td>
-          132
-        </td>
-        <td>
-          692
-          -
-          706
+          684
         </td>
         <td>
           Select
@@ -233,15 +203,15 @@
         </td>
       </tr><tr>
         <td>
-          21
+          19
         </td>
         <td>
-          78
+          43
         </td>
         <td>
-          692
+          670
           -
-          713
+          691
         </td>
         <td>
           Select
@@ -257,39 +227,15 @@
         </td>
       </tr><tr>
         <td>
-          23
+          19
         </td>
         <td>
-          13
+          3
         </td>
         <td>
-          729
+          670
           -
-          744
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          to
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          x(1).to(siUnit)
-        </td>
-      </tr><tr>
-        <td>
-          23
-        </td>
-        <td>
-          108
-        </td>
-        <td>
-          729
-          -
-          733
+          674
         </td>
         <td>
           Apply
@@ -305,15 +251,63 @@
         </td>
       </tr><tr>
         <td>
-          24
+          20
         </td>
         <td>
-          83
+          7
         </td>
         <td>
-          759
+          711
           -
-          774
+          726
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          to
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1).to(siUnit)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          51
+        </td>
+        <td>
+          711
+          -
+          715
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          x(1)
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          746
+          -
+          761
         </td>
         <td>
           Apply
@@ -329,15 +323,15 @@
         </td>
       </tr><tr>
         <td>
-          24
+          21
         </td>
         <td>
-          31
+          22
         </td>
         <td>
-          759
+          746
           -
-          763
+          750
         </td>
         <td>
           Apply
@@ -353,39 +347,15 @@
         </td>
       </tr><tr>
         <td>
-          26
+          22
         </td>
         <td>
-          59
+          65
         </td>
         <td>
-          780
+          768
           -
-          783
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          doubleWrapper
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          xSI
-        </td>
-      </tr><tr>
-        <td>
-          26
-        </td>
-        <td>
-          115
-        </td>
-        <td>
-          780
-          -
-          796
+          784
         </td>
         <td>
           Apply
@@ -398,6 +368,30 @@
         </td>
         <td style="background: #AEF1AE">
           xSI.compare(ySI)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          768
+          -
+          771
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          doubleWrapper
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          xSI
         </td>
       </tr>
     </table>

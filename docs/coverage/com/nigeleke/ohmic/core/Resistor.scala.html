@@ -59,7 +59,7 @@
 </span>35 <span style=''>import squants.electro.*
 </span>36 <span style=''>import squants.experimental.formatter.DefaultFormatter
 </span>37 <span style=''>import squants.experimental.unitgroups.UnitGroup
-</span>38 <span style=''>import squants.experimental.unitgroups.si.strict.implicits.*
+</span>38 <span style=''>import squants.experimental.unitgroups.si.strict.given
 </span>39 <span style=''>
 </span>40 <span style=''>final case class Resistor(base: Base, multiplier: Multiplier)
 </span>41 <span style=''>
@@ -104,12 +104,12 @@
           42
         </td>
         <td>
-          127
+          62
         </td>
         <td>
-          1917
+          1911
           -
-          1927
+          1921
         </td>
         <td>
           DefDef
@@ -128,12 +128,12 @@
           42
         </td>
         <td>
-          82
+          37
         </td>
         <td>
-          1950
+          1944
           -
-          2049
+          2043
         </td>
         <td>
           Apply
@@ -152,36 +152,12 @@
           44
         </td>
         <td>
-          122
-        </td>
-        <td>
-          1983
-          -
-          2049
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          map
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          multiplier &lt;- Multiplier.values\n  yield Resistor(base, multiplier)
-        </td>
-      </tr><tr>
-        <td>
           44
         </td>
         <td>
-          91
-        </td>
-        <td>
-          1997
+          1991
           -
-          2014
+          2008
         </td>
         <td>
           Apply
@@ -200,12 +176,12 @@
           44
         </td>
         <td>
-          27
+          10
         </td>
         <td>
-          1983
+          1977
           -
-          2049
+          2043
         </td>
         <td>
           Apply
@@ -221,15 +197,39 @@
         </td>
       </tr><tr>
         <td>
+          44
+        </td>
+        <td>
+          57
+        </td>
+        <td>
+          1977
+          -
+          2043
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          map
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          multiplier &lt;- Multiplier.values\n  yield Resistor(base, multiplier)
+        </td>
+      </tr><tr>
+        <td>
           45
         </td>
         <td>
-          37
+          15
         </td>
         <td>
-          1949
+          1943
           -
-          2056
+          2050
         </td>
         <td>
           Select
@@ -248,36 +248,12 @@
           48
         </td>
         <td>
-          47
+          32
         </td>
         <td>
-          2108
+          2102
           -
-          2117
-        </td>
-        <td>
-          Select
-        </td>
-        <td>
-          empty
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          Set.empty
-        </td>
-      </tr><tr>
-        <td>
-          48
-        </td>
-        <td>
-          73
-        </td>
-        <td>
-          2108
-          -
-          2111
+          2105
         </td>
         <td>
           Ident
@@ -293,39 +269,39 @@
         </td>
       </tr><tr>
         <td>
-          49
+          48
         </td>
         <td>
-          137
+          24
         </td>
         <td>
-          2200
+          2102
           -
-          2221
+          2111
         </td>
         <td>
-          Apply
+          Select
         </td>
         <td>
-          ++
+          empty
         </td>
         <td>
           
         </td>
         <td style="background: #AEF1AE">
-          set ++ setFor(series)
+          Set.empty
         </td>
       </tr><tr>
         <td>
           49
         </td>
         <td>
-          80
+          36
         </td>
         <td>
-          2207
+          2201
           -
-          2221
+          2215
         </td>
         <td>
           Apply
@@ -341,15 +317,39 @@
         </td>
       </tr><tr>
         <td>
+          49
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          2194
+          -
+          2215
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          ++
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          set ++ setFor(series)
+        </td>
+      </tr><tr>
+        <td>
           50
         </td>
         <td>
-          28
+          9
         </td>
         <td>
-          2226
+          2220
           -
-          2275
+          2269
         </td>
         <td>
           Apply
@@ -368,12 +368,36 @@
           53
         </td>
         <td>
-          95
+          56
         </td>
         <td>
-          2346
+          2335
           -
-          2366
+          2361
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          Ohms(r.multiplier(r.base))
+        </td>
+      </tr><tr>
+        <td>
+          53
+        </td>
+        <td>
+          47
+        </td>
+        <td>
+          2340
+          -
+          2360
         </td>
         <td>
           Apply
@@ -392,12 +416,12 @@
           53
         </td>
         <td>
-          43
+          20
         </td>
         <td>
-          2307
+          2301
           -
-          2316
+          2310
         </td>
         <td>
           DefDef
@@ -413,39 +437,15 @@
         </td>
       </tr><tr>
         <td>
-          53
-        </td>
-        <td>
-          123
-        </td>
-        <td>
-          2341
-          -
-          2367
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          apply
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          Ohms(r.multiplier(r.base))
-        </td>
-      </tr><tr>
-        <td>
           55
         </td>
         <td>
-          141
+          69
         </td>
         <td>
-          2373
+          2367
           -
-          2391
+          2385
         </td>
         <td>
           DefDef
@@ -464,12 +464,12 @@
           57
         </td>
         <td>
-          125
+          59
         </td>
         <td>
-          2500
+          2494
           -
-          2527
+          2521
         </td>
         <td>
           Apply
@@ -488,36 +488,12 @@
           58
         </td>
         <td>
-          9
+          34
         </td>
         <td>
+          2528
+          -
           2555
-          -
-          2560
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          value
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          value
-        </td>
-      </tr><tr>
-        <td>
-          58
-        </td>
-        <td>
-          75
-        </td>
-        <td>
-          2534
-          -
-          2561
         </td>
         <td>
           Apply
@@ -533,15 +509,39 @@
         </td>
       </tr><tr>
         <td>
+          58
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          2549
+          -
+          2554
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          value
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          value
+        </td>
+      </tr><tr>
+        <td>
           60
         </td>
         <td>
-          41
+          17
         </td>
         <td>
-          2567
+          2561
           -
-          2582
+          2576
         </td>
         <td>
           DefDef
@@ -560,12 +560,12 @@
           62
         </td>
         <td>
-          88
+          41
         </td>
         <td>
-          2676
+          2670
           -
-          2712
+          2706
         </td>
         <td>
           Apply
@@ -584,36 +584,12 @@
           62
         </td>
         <td>
-          117
+          13
         </td>
         <td>
-          2696
+          2670
           -
-          2711
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          from
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          BandColour.from
-        </td>
-      </tr><tr>
-        <td>
-          62
-        </td>
-        <td>
-          30
-        </td>
-        <td>
-          2676
-          -
-          2691
+          2685
         </td>
         <td>
           Apply
@@ -629,15 +605,39 @@
         </td>
       </tr><tr>
         <td>
+          62
+        </td>
+        <td>
+          54
+        </td>
+        <td>
+          2690
+          -
+          2705
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          from
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          BandColour.from
+        </td>
+      </tr><tr>
+        <td>
           64
         </td>
         <td>
-          94
+          48
         </td>
         <td>
-          2772
+          2766
           -
-          2803
+          2797
         </td>
         <td>
           Apply
