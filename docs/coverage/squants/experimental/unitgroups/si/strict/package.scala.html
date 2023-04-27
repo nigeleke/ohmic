@@ -28,14 +28,13 @@
 </span>4 <span style=''>import squants.{SiUnit, UnitOfMeasure}
 </span>5 <span style=''>import squants.experimental.unitgroups.UnitGroup
 </span>6 <span style=''>
-</span>7 <span style=''>/** UnitGroups for SI.
-</span>8 <span style=''>  */
-</span>9 <span style=''>package object strict:
-</span>10 <span style=''>
-</span>11 <span style=''>  /** implicit support for SI unit groups */
-</span>12 <span style=''>  </span><span style='background: #AEF1AE'>given [A &lt;: Quantity[A]</span><span style=''>](using dimension: Dimension[A]): UnitGroup[A] =
-</span>13 <span style=''>    new UnitGroup[A]:
-</span>14 <span style=''>      val units: Set[UnitOfMeasure[A]] = </span><span style='background: #AEF1AE'>dimension.units.filter(_.isInstanceOf[SiUnit])</span><span style=''>
+</span>7 <span style=''>/** UnitGroups for SI. */
+</span>8 <span style=''>package object strict:
+</span>9 <span style=''>
+</span>10 <span style=''>  /** implicit support for SI unit groups */
+</span>11 <span style=''>  </span><span style='background: #AEF1AE'>given [A &lt;: Quantity[A]</span><span style=''>](using dimension: Dimension[A]): UnitGroup[A] =
+</span>12 <span style=''>    new UnitGroup[A]:
+</span>13 <span style=''>      val units: Set[UnitOfMeasure[A]] = </span><span style='background: #AEF1AE'>dimension.units.filter(_.isInstanceOf[SiUnit])</span><span style=''>
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -50,15 +49,15 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          11
+          10
         </td>
         <td>
           14
         </td>
         <td>
-          269
+          267
           -
-          292
+          290
         </td>
         <td>
           DefDef
@@ -74,15 +73,15 @@
         </td>
       </tr><tr>
         <td>
-          13
+          12
         </td>
         <td>
           50
         </td>
         <td>
-          404
+          402
           -
-          450
+          448
         </td>
         <td>
           Apply
@@ -98,15 +97,15 @@
         </td>
       </tr><tr>
         <td>
-          13
+          12
         </td>
         <td>
           38
         </td>
         <td>
-          404
+          402
           -
-          419
+          417
         </td>
         <td>
           Select

@@ -1,5 +1,5 @@
 <scoverage 
-statement-count="149" statements-invoked="110" statement-rate="73.83" branch-rate="100.00" version="1.0" timestamp="1680673735162">
+statement-count="149" statements-invoked="110" statement-rate="73.83" branch-rate="100.00" version="1.0" timestamp="1682639698830">
     <packages>
         <package name="com.nigeleke.ohmic.app" statement-count="36" statements-invoked="18" statement-rate="50.00">
             <classes>
@@ -634,10 +634,10 @@ statement-count="149" statements-invoked="110" statement-rate="73.83" branch-rat
                         name="squants.experimental.unitgroups.si.strict/$anon/&lt;init&gt;" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="squants.experimental.unitgroups.si.strict" class="$anon" class-type="Class" full-class-name="squants.experimental.unitgroups.si.strict.$anon" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="&lt;init&gt;" start="404" end="450" line="13" branch="false" invocation-count="1" ignored="false">
+                                package="squants.experimental.unitgroups.si.strict" class="$anon" class-type="Class" full-class-name="squants.experimental.unitgroups.si.strict.$anon" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="&lt;init&gt;" start="402" end="448" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="squants.experimental.unitgroups.si.strict" class="$anon" class-type="Class" full-class-name="squants.experimental.unitgroups.si.strict.$anon" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="&lt;init&gt;" start="404" end="419" line="13" branch="false" invocation-count="1" ignored="false">
+                                package="squants.experimental.unitgroups.si.strict" class="$anon" class-type="Class" full-class-name="squants.experimental.unitgroups.si.strict.$anon" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="&lt;init&gt;" start="402" end="417" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -650,7 +650,7 @@ statement-count="149" statements-invoked="110" statement-rate="73.83" branch-rat
                         name="squants.experimental.unitgroups.si.strict/package$/given_UnitGroup_A" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="squants.experimental.unitgroups.si.strict" class="package$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.strict.package$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="given_UnitGroup_A" start="269" end="292" line="11" branch="false" invocation-count="1" ignored="false">
+                                package="squants.experimental.unitgroups.si.strict" class="package$" class-type="Object" full-class-name="squants.experimental.unitgroups.si.strict.package$" source="/home/runner/work/ohmic/ohmic/core/src/main/scala/squants/experimental/unitgroups/si/strict/package.scala" method="given_UnitGroup_A" start="267" end="290" line="10" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
