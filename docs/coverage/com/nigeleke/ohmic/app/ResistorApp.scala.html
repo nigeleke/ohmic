@@ -66,19 +66,19 @@
 </span>42 <span style=''>
 </span>43 <span style=''>  private val series = </span><span style='background: #AEF1AE'>Resistor.setFor(Series.e24)</span><span style=''>
 </span>44 <span style=''>
-</span>45 <span style=''>  private val series5BandMap = </span><span style='background: #AEF1AE'>(</span><span style='background: #F0ADAD'>Resistor.fullSet
-</span>46 <span style=''></span><span style='background: #F0ADAD'>    .filter(series.contains)
-</span>47 <span style=''></span><span style='background: #F0ADAD'>    .filter(_.colourCodes.size == 4)
-</span>48 <span style=''></span><span style='background: #F0ADAD'>    .map(r =&gt; (r.value, r))</span><span style='background: #AEF1AE'>)
+</span>45 <span style=''>  private val series5BandMap = </span><span style='background: #AEF1AE'>(Resistor.fullSet
+</span>46 <span style=''></span><span style='background: #AEF1AE'>    .filter(series.contains)
+</span>47 <span style=''></span><span style='background: #AEF1AE'>    .filter(_.colourCodes.size == 4)
+</span>48 <span style=''></span><span style='background: #AEF1AE'>    .map(r =&gt; (</span><span style='background: #F0ADAD'>r.value</span><span style='background: #AEF1AE'>, r)))
 </span>49 <span style=''></span><span style='background: #AEF1AE'>    .toMap</span><span style=''>
 </span>50 <span style=''>
 </span>51 <span style=''>  private val rows = </span><span style='background: #AEF1AE'>for
-</span>52 <span style=''></span><span style='background: #AEF1AE'>    </span><span style='background: #F0ADAD'>r1 &lt;- series.toList.sortBy(_.value)
-</span>53 <span style=''></span><span style='background: #F0ADAD'>    optR2 = series5BandMap.get(r1.value)</span><span style='background: #AEF1AE'>
+</span>52 <span style=''></span><span style='background: #AEF1AE'>    r1 &lt;- series.toList.sortBy(_.value)
+</span>53 <span style=''></span><span style='background: #AEF1AE'>    optR2 = series5BandMap.get(r1.value)
 </span>54 <span style=''></span><span style='background: #AEF1AE'>  yield
 </span>55 <span style=''></span><span style='background: #AEF1AE'>    val v = r1.formattedValue
 </span>56 <span style=''></span><span style='background: #AEF1AE'>    val colourCodes =
-</span>57 <span style=''></span><span style='background: #AEF1AE'>      </span><span style='background: #F0ADAD'>Seq(r1.colourCodes)</span><span style='background: #AEF1AE'> :+ (</span><span style='background: #F0ADAD'>optR2.map(_.colourCodes)</span><span style='background: #AEF1AE'>.getOrElse(Seq.empty[BandColour]))
+</span>57 <span style=''></span><span style='background: #AEF1AE'>      Seq(r1.colourCodes) :+ (optR2.map(</span><span style='background: #F0ADAD'>_.colourCodes</span><span style='background: #AEF1AE'>).getOrElse(Seq.empty[BandColour]))
 </span>58 <span style=''></span><span style='background: #AEF1AE'>    ResistorRow(v.value, v.unit.symbol, colourCodes)</span><span style=''>
 </span>59 <span style=''>
 </span>60 <span style=''>  </span><span style='background: #AEF1AE'>@main
@@ -100,7 +100,7 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          42
+          43
         </td>
         <td>
           149
@@ -124,7 +124,7 @@
         </td>
       </tr><tr>
         <td>
-          44
+          45
         </td>
         <td>
           121
@@ -148,7 +148,7 @@
         </td>
       </tr><tr>
         <td>
-          45
+          46
         </td>
         <td>
           107
@@ -167,12 +167,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           Resistor.fullSet\n    .filter(series.contains)
         </td>
       </tr><tr>
         <td>
-          45
+          46
         </td>
         <td>
           96
@@ -191,12 +191,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           series.contains
         </td>
       </tr><tr>
         <td>
-          46
+          47
         </td>
         <td>
           137
@@ -215,12 +215,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           Resistor.fullSet\n    .filter(series.contains)\n    .filter(_.colourCodes.size == 4)
         </td>
       </tr><tr>
         <td>
-          46
+          47
         </td>
         <td>
           112
@@ -239,12 +239,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           _.colourCodes.size
         </td>
       </tr><tr>
         <td>
-          46
+          47
         </td>
         <td>
           147
@@ -263,12 +263,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           _.colourCodes
         </td>
       </tr><tr>
         <td>
-          47
+          48
         </td>
         <td>
           82
@@ -292,7 +292,7 @@
         </td>
       </tr><tr>
         <td>
-          47
+          48
         </td>
         <td>
           94
@@ -311,12 +311,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           Resistor.fullSet\n    .filter(series.contains)\n    .filter(_.colourCodes.size == 4)\n    .map(r =&gt; (r.value, r))
         </td>
       </tr><tr>
         <td>
-          50
+          51
         </td>
         <td>
           133
@@ -340,7 +340,7 @@
         </td>
       </tr><tr>
         <td>
-          51
+          52
         </td>
         <td>
           119
@@ -359,12 +359,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           r1 &lt;- series.toList.sortBy(_.value)\n    optR2 = series5BandMap.get(r1.value)
         </td>
       </tr><tr>
         <td>
-          51
+          52
         </td>
         <td>
           106
@@ -383,12 +383,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           _.value
         </td>
       </tr><tr>
         <td>
-          51
+          52
         </td>
         <td>
           138
@@ -407,12 +407,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           series.toList
         </td>
       </tr><tr>
         <td>
-          51
+          52
         </td>
         <td>
           87
@@ -431,36 +431,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           series.toList.sortBy(_.value)
         </td>
       </tr><tr>
         <td>
-          51
-        </td>
-        <td>
-          111
-        </td>
-        <td>
-          1979
-          -
-          2024
-        </td>
-        <td>
-          Block
-        </td>
-        <td>
-          &lt;none&gt;
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #AEF1AE">
-          r1 &lt;- series.toList.sortBy(_.value)\n    optR2
-        </td>
-      </tr><tr>
-        <td>
-          52
+          53
         </td>
         <td>
           97
@@ -479,12 +455,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           series5BandMap.get(r1.value)
         </td>
       </tr><tr>
         <td>
-          52
+          53
         </td>
         <td>
           143
@@ -503,15 +479,39 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           r1.value
         </td>
       </tr><tr>
         <td>
-          54
+          55
         </td>
         <td>
-          81
+          90
+        </td>
+        <td>
+          2068
+          -
+          2257
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;none&gt;
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          val v = r1.formattedValue\n    val colourCodes =\n      Seq(r1.colourCodes) :+ (optR2.map(_.colourCodes).getOrElse(Seq.empty[BandColour]))\n    ResistorRow(v.value, v.unit.symbol, colourCodes)
+        </td>
+      </tr><tr>
+        <td>
+          55
+        </td>
+        <td>
+          111
         </td>
         <td>
           2076
@@ -532,58 +532,10 @@
         </td>
       </tr><tr>
         <td>
-          56
+          57
         </td>
         <td>
           146
-        </td>
-        <td>
-          2156
-          -
-          2169
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          colourCodes
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          _.colourCodes
-        </td>
-      </tr><tr>
-        <td>
-          56
-        </td>
-        <td>
-          122
-        </td>
-        <td>
-          2122
-          -
-          2141
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          apply
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          Seq(r1.colourCodes)
-        </td>
-      </tr><tr>
-        <td>
-          56
-        </td>
-        <td>
-          116
         </td>
         <td>
           2181
@@ -604,58 +556,34 @@
         </td>
       </tr><tr>
         <td>
-          56
+          57
         </td>
         <td>
-          109
+          122
         </td>
         <td>
-          2146
+          2122
           -
-          2203
+          2125
         </td>
         <td>
-          Apply
+          Ident
         </td>
         <td>
-          getOrElse
+          Seq
         </td>
         <td>
           
         </td>
         <td style="background: #AEF1AE">
-          optR2.map(_.colourCodes).getOrElse(Seq.empty[BandColour])
+          Seq
         </td>
       </tr><tr>
         <td>
-          56
+          57
         </td>
         <td>
-          73
-        </td>
-        <td>
-          2146
-          -
-          2170
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          map
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          optR2.map(_.colourCodes)
-        </td>
-      </tr><tr>
-        <td>
-          56
-        </td>
-        <td>
-          85
+          116
         </td>
         <td>
           2181
@@ -676,10 +604,82 @@
         </td>
       </tr><tr>
         <td>
-          56
+          57
+        </td>
+        <td>
+          109
+        </td>
+        <td>
+          2146
+          -
+          2170
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          map
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          optR2.map(_.colourCodes)
+        </td>
+      </tr><tr>
+        <td>
+          57
+        </td>
+        <td>
+          73
+        </td>
+        <td>
+          2156
+          -
+          2169
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          colourCodes
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #F0ADAD">
+          _.colourCodes
+        </td>
+      </tr><tr>
+        <td>
+          57
         </td>
         <td>
           132
+        </td>
+        <td>
+          2122
+          -
+          2141
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          apply
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          Seq(r1.colourCodes)
+        </td>
+      </tr><tr>
+        <td>
+          57
+        </td>
+        <td>
+          81
         </td>
         <td>
           2122
@@ -700,10 +700,34 @@
         </td>
       </tr><tr>
         <td>
-          56
+          57
         </td>
         <td>
           135
+        </td>
+        <td>
+          2146
+          -
+          2203
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          getOrElse
+        </td>
+        <td>
+          
+        </td>
+        <td style="background: #AEF1AE">
+          optR2.map(_.colourCodes).getOrElse(Seq.empty[BandColour])
+        </td>
+      </tr><tr>
+        <td>
+          57
+        </td>
+        <td>
+          93
         </td>
         <td>
           2126
@@ -719,39 +743,15 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           r1.colourCodes
         </td>
       </tr><tr>
         <td>
-          56
+          58
         </td>
         <td>
-          93
-        </td>
-        <td>
-          2122
-          -
-          2125
-        </td>
-        <td>
-          Ident
-        </td>
-        <td>
-          Seq
-        </td>
-        <td>
-          
-        </td>
-        <td style="background: #F0ADAD">
-          Seq
-        </td>
-      </tr><tr>
-        <td>
-          57
-        </td>
-        <td>
-          130
+          85
         </td>
         <td>
           2221
@@ -772,10 +772,10 @@
         </td>
       </tr><tr>
         <td>
-          57
+          58
         </td>
         <td>
-          123
+          130
         </td>
         <td>
           2230
@@ -796,10 +796,10 @@
         </td>
       </tr><tr>
         <td>
-          57
+          58
         </td>
         <td>
-          90
+          123
         </td>
         <td>
           2230
@@ -820,7 +820,7 @@
         </td>
       </tr><tr>
         <td>
-          60
+          61
         </td>
         <td>
           83
@@ -844,7 +844,7 @@
         </td>
       </tr><tr>
         <td>
-          61
+          62
         </td>
         <td>
           77
@@ -868,7 +868,7 @@
         </td>
       </tr><tr>
         <td>
-          62
+          63
         </td>
         <td>
           110
@@ -892,7 +892,7 @@
         </td>
       </tr><tr>
         <td>
-          62
+          63
         </td>
         <td>
           148
@@ -916,7 +916,7 @@
         </td>
       </tr><tr>
         <td>
-          63
+          64
         </td>
         <td>
           140
@@ -940,7 +940,7 @@
         </td>
       </tr><tr>
         <td>
-          63
+          64
         </td>
         <td>
           117

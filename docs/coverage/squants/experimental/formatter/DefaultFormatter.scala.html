@@ -30,9 +30,9 @@
 </span>6 <span style=''>class DefaultFormatter[A &lt;: Quantity[A]](unitGroup: UnitGroup[A]):
 </span>7 <span style=''>  </span><span style='background: #AEF1AE'>def inBestUnit</span><span style=''>(quantity: Quantity[A]): A =
 </span>8 <span style=''>    val unit =
-</span>9 <span style=''>      </span><span style='background: #F0ADAD'>unitGroup.sortedUnits
-</span>10 <span style=''></span><span style='background: #F0ADAD'>        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
-</span>11 <span style=''></span><span style='background: #F0ADAD'>        .lastOption</span><span style='background: #AEF1AE'>
+</span>9 <span style=''>      </span><span style='background: #AEF1AE'>unitGroup.sortedUnits
+</span>10 <span style=''></span><span style='background: #AEF1AE'>        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
+</span>11 <span style=''></span><span style='background: #AEF1AE'>        .lastOption
 </span>12 <span style=''></span><span style='background: #AEF1AE'>        .getOrElse(</span><span style='background: #F0ADAD'>unitGroup.sortedUnits.head</span><span style='background: #AEF1AE'>)</span><span style=''>
 </span>13 <span style=''>    </span><span style='background: #AEF1AE'>quantity.in(unit)</span><span style=''>
 </span></pre>
@@ -49,7 +49,7 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          6
+          7
         </td>
         <td>
           52
@@ -73,7 +73,7 @@
         </td>
       </tr><tr>
         <td>
-          9
+          10
         </td>
         <td>
           4
@@ -92,12 +92,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           quantity.to(u).abs
         </td>
       </tr><tr>
         <td>
-          9
+          10
         </td>
         <td>
           19
@@ -116,12 +116,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           unitGroup.sortedUnits\n        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }
         </td>
       </tr><tr>
         <td>
-          9
+          10
         </td>
         <td>
           60
@@ -140,12 +140,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           quantity.to(u)
         </td>
       </tr><tr>
         <td>
-          9
+          10
         </td>
         <td>
           30
@@ -164,12 +164,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           quantity.to(u)
         </td>
       </tr><tr>
         <td>
-          10
+          11
         </td>
         <td>
           68
@@ -188,12 +188,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           unitGroup.sortedUnits\n        .takeWhile { u =&gt; quantity.to(u).abs &gt;= 1.0 }\n        .lastOption
         </td>
       </tr><tr>
         <td>
-          11
+          12
         </td>
         <td>
           25
@@ -217,7 +217,7 @@
         </td>
       </tr><tr>
         <td>
-          11
+          12
         </td>
         <td>
           39
@@ -241,7 +241,7 @@
         </td>
       </tr><tr>
         <td>
-          12
+          13
         </td>
         <td>
           8

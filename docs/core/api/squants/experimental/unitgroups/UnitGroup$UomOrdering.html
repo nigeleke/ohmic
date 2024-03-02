@@ -12,7 +12,7 @@
 </div>
 <div class="cover">
  <div class="doc">
-  <p><span data-unresolved-link="">scala.math.Ordering</span> instance for <span data-unresolved-link="">UnitOfMeasure</span>[A]</p> 
+  <p><span data-unresolved-link="">scala.math.Ordering</span> instance for <span data-unresolved-link="">UnitOfMeasure</span>[A]</p>
  </div>
  <section id="attributes">
   <h2 class="h500">Attributes</h2>
@@ -30,9 +30,9 @@ node1 [id=node1, label="<span style=\"color: #FFFFFF;\">class <span data-unresol
 node2 [id=node2, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">Any</span></span>", class="class vertex"];
 node3 [id=node3, label="<span style=\"color: #FFFFFF;\">trait <span data-unresolved-link=\"\" t=\"n\">Matchable</span></span>", class="trait vertex"];
 node4 [id=node4, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">Ordering</span>[<span data-unresolved-link=\"\" t=\"t\">UnitOfMeasure</span>[<span t=\"t\">A</span>]]</span>", class="class vertex"];
-node5 [id=node5, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">Comparator</span>[<span t=\"t\">T</span>]</span>", class="class vertex"];
-node6 [id=node6, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">PartialOrdering</span>[<span t=\"t\">T</span>]</span>", class="class vertex"];
-node7 [id=node7, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">Equiv</span>[<span t=\"t\">T</span>]</span>", class="class vertex"];
+node5 [id=node5, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">Comparator</span>[<span data-unresolved-link=\"\" t=\"t\">UnitOfMeasure</span>[<span t=\"t\">A</span>]]</span>", class="class vertex"];
+node6 [id=node6, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">PartialOrdering</span>[<span data-unresolved-link=\"\" t=\"t\">UnitOfMeasure</span>[<span t=\"t\">A</span>]]</span>", class="class vertex"];
+node7 [id=node7, label="<span style=\"color: #FFFFFF;\">class <span data-unresolved-link=\"\" t=\"n\">Equiv</span>[<span data-unresolved-link=\"\" t=\"t\">UnitOfMeasure</span>[<span t=\"t\">A</span>]]</span>", class="class vertex"];
 node8 [id=node8, label="<span style=\"color: #FFFFFF;\">trait <span data-unresolved-link=\"\" t=\"n\">Serializable</span></span>", class="trait vertex"];
 
 
@@ -93,8 +93,7 @@ node4 -> node8;
 <section id="members-list">
  <h2 class="h500">Members list</h2>
  <div class="documentableFilter">
-  <div class="filtersContainer"></div>
-  <input class="filterableInput" placeholder="Filter by any phrase" data-test-id="filterBarInput" type="search"><button class="clearButton label-only-button" data-test-id="filterBarClearButton">Clear all</button>
+  <div class="filtersContainer"></div><input class="filterableInput" placeholder="Filter by any phrase" data-test-id="filterBarInput" type="search"><button class="clearButton label-only-button" data-test-id="filterBarClearButton">Clear all</button>
  </div>
  <div class="membersList expand">
   <div class="tabs">
@@ -526,7 +525,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#orElse-6c0" t="n" class="documentableName ">orElse</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">other</span>: <span data-unresolved-link="" t="t">Ordering</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]): <span data-unresolved-link="" t="t">Ordering</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#orElse-6c0" t="n" class="documentableName ">orElse</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">other</span>: <span data-unresolved-link="" t="t">Ordering</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]): <span data-unresolved-link="" t="t">Ordering</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -556,7 +555,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#orElseBy-fffff300" t="n" class="documentableName ">orElseBy</a>[<span t="k"></span><span data-unresolved-link="" t="t">S</span>](<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">f</span>: <span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> =&gt; </span><span t="t">S</span>)(<span t="k">implicit </span><span t="k"></span><span data-unresolved-link="" t="n">ord</span>: <span data-unresolved-link="" t="t">Ordering</span>[<span t="t">S</span>]): <span data-unresolved-link="" t="t">Ordering</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#orElseBy-fffff300" t="n" class="documentableName ">orElseBy</a>[<span t="k"></span><span data-unresolved-link="" t="t">S</span>](<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">f</span>: (<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>])<span t="k"> =&gt; </span><span t="t">S</span>)(<span t="k">implicit </span><span t="k"></span><span data-unresolved-link="" t="n">ord</span>: <span data-unresolved-link="" t="t">Ordering</span>[<span t="t">S</span>]): <span data-unresolved-link="" t="t">Ordering</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -586,7 +585,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"><span t="k">override </span></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#reverse-0" t="n" class="documentableName ">reverse</a>: <span data-unresolved-link="" t="t">Ordering</span>[<span t="t">T</span>]
+            <span class="modifiers"><span t="k">override </span></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#reverse-0" t="n" class="documentableName ">reverse</a>: <span data-unresolved-link="" t="t">Ordering</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -624,7 +623,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#reversed-696" t="n" class="documentableName ">reversed</a>(<span t="k"></span>): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#reversed-696" t="n" class="documentableName ">reversed</a>(<span t="k"></span>): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -654,7 +653,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparing-6f3" t="n" class="documentableName ">thenComparing</a>[<span t="k"></span><span data-unresolved-link="" t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">Comparable</span>[<span t="k">_</span><span t="k"> &gt;: </span><span t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]](<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">Function</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>, <span t="k">_</span><span t="k"> &lt;: </span><span t="t">U</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparing-6f3" t="n" class="documentableName ">thenComparing</a>[<span t="k"></span><span data-unresolved-link="" t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">Comparable</span>[<span t="k">_</span><span t="k"> &gt;: </span><span t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]](<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">Function</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>, <span t="k">_</span><span t="k"> &lt;: </span><span t="t">U</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -684,7 +683,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparing-609" t="n" class="documentableName ">thenComparing</a>[<span t="k"></span><span data-unresolved-link="" t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>](<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">Function</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>, <span t="k">_</span><span t="k"> &lt;: </span><span t="t">U</span>], <span t="k"></span><span data-unresolved-link="" t="n">x$1</span>: <span data-unresolved-link="" t="t">Comparator</span>[<span t="k">_</span><span t="k"> &gt;: </span><span t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparing-609" t="n" class="documentableName ">thenComparing</a>[<span t="k"></span><span data-unresolved-link="" t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>](<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">Function</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>, <span t="k">_</span><span t="k"> &lt;: </span><span t="t">U</span>], <span t="k"></span><span data-unresolved-link="" t="n">x$1</span>: <span data-unresolved-link="" t="t">Comparator</span>[<span t="k">_</span><span t="k"> &gt;: </span><span t="t">U</span><span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -714,7 +713,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparing-62c" t="n" class="documentableName ">thenComparing</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">Comparator</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparing-62c" t="n" class="documentableName ">thenComparing</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">Comparator</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -744,7 +743,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparingDouble-d90" t="n" class="documentableName ">thenComparingDouble</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">ToDoubleFunction</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparingDouble-d90" t="n" class="documentableName ">thenComparingDouble</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">ToDoubleFunction</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -774,7 +773,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparingInt-fffff0ec" t="n" class="documentableName ">thenComparingInt</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">ToIntFunction</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparingInt-fffff0ec" t="n" class="documentableName ">thenComparingInt</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">ToIntFunction</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -804,7 +803,7 @@ node4 -> node8;
           <button class="icon-button ar show-content"></button>
           <div class="header monospace mono-medium">
            <div class="signature">
-            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparingLong-fffff1fb" t="n" class="documentableName ">thenComparingLong</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">ToLongFunction</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span t="t">T</span>]
+            <span class="modifiers"></span><span class="kind"><span t="k">def </span></span><a href="UnitGroup$UomOrdering.html#thenComparingLong-fffff1fb" t="n" class="documentableName ">thenComparingLong</a>(<span t="k"></span><span t="k"></span><span data-unresolved-link="" t="n">x$0</span>: <span data-unresolved-link="" t="t">ToLongFunction</span>[<span t="k">_</span><span t="k"> &gt;: </span><span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]<span t="k"> &lt;: </span><span data-unresolved-link="" t="t">&lt;FromJavaObject&gt;</span>]): <span data-unresolved-link="" t="t">Comparator</span>[<span data-unresolved-link="" t="t">UnitOfMeasure</span>[<span t="t">A</span>]]
            </div>
           </div>
          </div>
@@ -911,4 +910,4 @@ node4 -> node8;
    </div>
   </div>
  </div>
-</section></div><div id="toc" class="body-small"><div id="toc-container"><span class="toc-title h200">In this article</span><nav class="toc-nav"><ul class="toc-list"><li><a href="#attributes">Attributes</a></li><li><a href="#members-list">Members list</a><ul><li><a href="#Type-members">Type members</a><ul><li><a href="#Inherited-classlikes">Inherited classlikes</a></li></ul></li><li><a href="#Value-members">Value members</a><ul><li><a href="#Concrete-methods">Concrete methods</a></li><li><a href="#Inherited-methods">Inherited methods</a></li></ul></li><li><a href="#Implicits">Implicits</a><ul><li><a href="#Inherited-implicits">Inherited implicits</a></li></ul></li></ul></li></ul></nav></div></div></div><div id="footer" class="body-small mobile-footer"><div class="left-container">Generated with</div><div class="right-container"><a href="https://github.com/lampepfl/dotty"><button class="icon-button gh"></button></a><a href="https://twitter.com/scala_lang"><button class="icon-button twitter"></button></a><a href="https://discord.com/invite/scala"><button class="icon-button discord"></button></a><a href="https://gitter.im/scala/scala"><button class="icon-button gitter"></button></a><div class="text"></div></div><div class="text-mobile"></div></div></div></div></body></html>
+</section></div><div id="toc" class="body-small"><div id="toc-container"><span class="toc-title h200">In this article</span><nav class="toc-nav"><ul class="toc-list"><li><a href="#attributes">Attributes</a></li><li><a href="#members-list">Members list</a><ul><li><a href="#Type-members">Type members</a><ul><li><a href="#Inherited-classlikes">Inherited classlikes</a></li></ul></li><li><a href="#Value-members">Value members</a><ul><li><a href="#Concrete-methods">Concrete methods</a></li><li><a href="#Inherited-methods">Inherited methods</a></li></ul></li><li><a href="#Implicits">Implicits</a><ul><li><a href="#Inherited-implicits">Inherited implicits</a></li></ul></li></ul></li></ul></nav></div></div></div><div id="footer" class="body-small mobile-footer"><div class="left-container">Generated with</div><div class="right-container"><div class="text"></div></div><div class="text-mobile"></div></div></div></div></body></html>

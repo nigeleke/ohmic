@@ -66,7 +66,7 @@
 </span>42 <span style=''>object Resistor:
 </span>43 <span style=''>  </span><span style='background: #AEF1AE'>def setFor</span><span style=''>(series: Seq[Base]) = </span><span style='background: #AEF1AE'>(for
 </span>44 <span style=''></span><span style='background: #AEF1AE'>    base       &lt;- series
-</span>45 <span style=''></span><span style='background: #AEF1AE'>    multiplier &lt;- </span><span style='background: #F0ADAD'>Multiplier.values</span><span style='background: #AEF1AE'>
+</span>45 <span style=''></span><span style='background: #AEF1AE'>    multiplier &lt;- Multiplier.values
 </span>46 <span style=''></span><span style='background: #AEF1AE'>  yield Resistor(base, multiplier)).toSet</span><span style=''>
 </span>47 <span style=''>
 </span>48 <span style=''>  lazy val fullSet =
@@ -84,7 +84,7 @@
 </span>60 <span style=''>
 </span>61 <span style=''>    </span><span style='background: #AEF1AE'>def colourCodes</span><span style=''>: Seq[BandColour] =
 </span>62 <span style=''>      val baseValueString  = r.base.toString
-</span>63 <span style=''>      val bandColours      = </span><span style='background: #F0ADAD'>baseValueString</span><span style='background: #AEF1AE'>.map(BandColour.from)</span><span style=''>
+</span>63 <span style=''>      val bandColours      = </span><span style='background: #AEF1AE'>baseValueString.map(BandColour.from)</span><span style=''>
 </span>64 <span style=''>      val multiplierColour = r.multiplier.bandColour
 </span>65 <span style=''>      </span><span style='background: #AEF1AE'>bandColours :+ multiplierColour</span><span style=''>
 </span></pre>
@@ -101,7 +101,7 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          42
+          43
         </td>
         <td>
           62
@@ -125,7 +125,7 @@
         </td>
       </tr><tr>
         <td>
-          42
+          43
         </td>
         <td>
           37
@@ -149,7 +149,7 @@
         </td>
       </tr><tr>
         <td>
-          44
+          45
         </td>
         <td>
           44
@@ -168,12 +168,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           Multiplier.values
         </td>
       </tr><tr>
         <td>
-          44
+          45
         </td>
         <td>
           10
@@ -197,7 +197,7 @@
         </td>
       </tr><tr>
         <td>
-          44
+          45
         </td>
         <td>
           57
@@ -221,7 +221,7 @@
         </td>
       </tr><tr>
         <td>
-          45
+          46
         </td>
         <td>
           15
@@ -245,7 +245,7 @@
         </td>
       </tr><tr>
         <td>
-          48
+          49
         </td>
         <td>
           32
@@ -269,7 +269,7 @@
         </td>
       </tr><tr>
         <td>
-          48
+          49
         </td>
         <td>
           24
@@ -293,7 +293,7 @@
         </td>
       </tr><tr>
         <td>
-          49
+          50
         </td>
         <td>
           36
@@ -317,7 +317,7 @@
         </td>
       </tr><tr>
         <td>
-          49
+          50
         </td>
         <td>
           66
@@ -341,7 +341,7 @@
         </td>
       </tr><tr>
         <td>
-          50
+          51
         </td>
         <td>
           9
@@ -365,7 +365,7 @@
         </td>
       </tr><tr>
         <td>
-          53
+          54
         </td>
         <td>
           56
@@ -389,7 +389,7 @@
         </td>
       </tr><tr>
         <td>
-          53
+          54
         </td>
         <td>
           47
@@ -413,7 +413,7 @@
         </td>
       </tr><tr>
         <td>
-          53
+          54
         </td>
         <td>
           20
@@ -437,7 +437,7 @@
         </td>
       </tr><tr>
         <td>
-          55
+          56
         </td>
         <td>
           69
@@ -461,7 +461,7 @@
         </td>
       </tr><tr>
         <td>
-          57
+          58
         </td>
         <td>
           59
@@ -485,7 +485,7 @@
         </td>
       </tr><tr>
         <td>
-          58
+          59
         </td>
         <td>
           34
@@ -509,7 +509,7 @@
         </td>
       </tr><tr>
         <td>
-          58
+          59
         </td>
         <td>
           1
@@ -533,7 +533,7 @@
         </td>
       </tr><tr>
         <td>
-          60
+          61
         </td>
         <td>
           17
@@ -557,7 +557,7 @@
         </td>
       </tr><tr>
         <td>
-          62
+          63
         </td>
         <td>
           41
@@ -581,7 +581,7 @@
         </td>
       </tr><tr>
         <td>
-          62
+          63
         </td>
         <td>
           13
@@ -600,12 +600,12 @@
         <td>
           
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           baseValueString
         </td>
       </tr><tr>
         <td>
-          62
+          63
         </td>
         <td>
           54
@@ -629,7 +629,7 @@
         </td>
       </tr><tr>
         <td>
-          64
+          65
         </td>
         <td>
           48
