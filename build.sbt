@@ -7,7 +7,7 @@ val bsd3License = Some(HeaderLicense.BSD3Clause("2023", "Nigel Eke"))
 
 val log4jVersion     = "2.23.1"
 val poiVersion       = "5.2.5"
-val scalatestVersion = "3.2.18"
+val scalatestVersion = "3.2.19"
 val squantsVersion   = "1.8.3"
 
 ThisBuild / versionScheme := Some("early-semver")
